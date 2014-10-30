@@ -22,4 +22,4 @@ requires:
   NetSNMP::OID: '5.0404'
   NetSNMP::agent: '5.0404'
   perl: '5.006'
-version: '0.01'
+version: '0.02'
