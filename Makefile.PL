@@ -18,9 +18,9 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'NetSNMP::agent' => 5.0404,
-        'NetSNMP::ASN' => 5.0404,
-        'NetSNMP::OID' => 5.0404,
+        'NetSNMP::agent' => 5,
+        'NetSNMP::ASN' => 5,
+        'NetSNMP::OID' => 5,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'OpenServices-SNMP-Plugin-Updates-*' },

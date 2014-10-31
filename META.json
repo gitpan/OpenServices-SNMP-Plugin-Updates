@@ -32,13 +32,13 @@
       },
       "runtime" : {
          "requires" : {
-            "NetSNMP::ASN" : "5.0404",
-            "NetSNMP::OID" : "5.0404",
-            "NetSNMP::agent" : "5.0404",
+            "NetSNMP::ASN" : "5",
+            "NetSNMP::OID" : "5",
+            "NetSNMP::agent" : "5",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.02"
+   "version" : "0.03"
 }
