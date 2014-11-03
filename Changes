@@ -1,5 +1,8 @@
 Revision history for OpenServices-SNMP-Plugin-Updates
 
+0.04    2014-11-03
+        Do not restrict package prefixes to RHEA, also recognize RHSA as pending updates.
+
 0.03    2014-10-31
         Loosen up versioned dependency on Net::SNMP::*.
 

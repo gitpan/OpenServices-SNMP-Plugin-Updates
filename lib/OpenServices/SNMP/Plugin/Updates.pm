@@ -15,11 +15,11 @@ OpenServices::SNMP::Plugin::Updates - Expose pending security updates over SNMP
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 BASE OID
 
@@ -98,7 +98,7 @@ sub check {
             my $output = qx/yum list-security -y/;
             my @packages;
             foreach my $line (split /\n/, $output) {
-                if (my ($name) = $line =~ /^RHEA-\d+:\d+ \S+ (\S+)$/) {
+                if (my ($name) = $line =~ /^RH\w+-\d+:\d+ \S+ (\S+)$/) {
                     push @packages, $name;
                 }
             }
